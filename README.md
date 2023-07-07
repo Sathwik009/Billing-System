@@ -6,4 +6,4 @@ Demonstrated problem-solving skills by handling scenarios like duplicate product
 Administrator Login Credentials :
     mail id: sathwikpadigela@gmail.com
     password: asdfasdf
-Initially There is no data stored, ypu need to login through administrator credentials and add data.
+Initially There is no data stored, you need to login through administrator credentials and add data.
