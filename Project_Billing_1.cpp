@@ -331,3 +331,8 @@ int main()
     shopping s;
     s.menu();
 }
+/*
+    Administrator Login Credentials : 
+        mail id: sathwikpadigela@gmail.com 
+        password: asdfasdf 
+    Initially There is no data stored, you need to login through administrator credentials and add data. */
