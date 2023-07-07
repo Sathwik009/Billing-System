@@ -303,7 +303,7 @@ void shopping::receipt()
         } while (choice == "y");
 
         cout << "\n\n\t\t\t________________RECEIPT______________\n";
-        cout << "\nProduct No\tProduct Name\tQuantity\tPrice\tAmount\tAmount after discount\n";
+        cout << "\n Product No\t Product Name\t Product quantity\t price\t Amount\t Amount after discount\n";
 
         data.open("database.txt", ios::in);
         while (data >> prod_code >> prod_name >> prod_price >> discount)
@@ -316,7 +316,7 @@ void shopping::receipt()
                     disc = amount - (amount * discount / 100);
                     total += disc;
                     cout << "\n"
-                         << prod_code << "\t\t" << prod_name << "\t\t" << quantity[i] << "\t\t" << prod_price << "\t" << amount << "\t\t" << disc;
+                         << prod_code << "\t\t" << prod_name << "\t\t" << quantity[i] << "\t\t\t" << prod_price << "\t" << amount << "\t\t" << disc;
                     break; // Break the loop once the matching product is found
                 }
             }
@@ -331,8 +331,3 @@ int main()
     shopping s;
     s.menu();
 }
-//  Implemented features for both administrators and customers, allowing them to manage products and make purchases.
-// Created a hardware based working model of the same using components such as ardiuno uno, breadboard, relay, dht sensor, and spray
-// module.
-// • Implemented an efficient code which turns on Humidifier automatically when surroundings humidity is less than 75% and sprays until it
-// reaches desired level.
